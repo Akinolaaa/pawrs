@@ -1,11 +1,14 @@
 import Image from 'next/image'
 import pawrsLogo from '../../../public/pawrs-logo.svg'
 
-
-const Logo = () => {
+type props = {
+  width?: number,
+  height?: number,
+}
+const Logo = ({ width, height }: props) => {
   return(
     <div> 
-      <Image alt='logo' src={pawrsLogo} width={112} height={59.5}/>
+      <Image alt='logo' src={pawrsLogo} width={width ?? 112} height={height ?? 59.5}/>
     </div>
   )
 }

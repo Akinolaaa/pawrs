@@ -1,5 +1,5 @@
 import React from 'react'
-import PetCard from './pet-card';
+import PetCard from './PetCard';
 import { Playfair_Display } from 'next/font/google'
 import PurpleButton from './PurpleButton';
 
