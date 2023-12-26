@@ -23,7 +23,13 @@ const config: Config = {
       white: '#FFFFFF',
       purple: '#6F32DF',
       red1: '#E23A2A',
-      fadedNude: '#F9FAED'
+      fadedNude: '#F9FAED',
+      lightPurple: '#F2D2ED',
+      blueGray: '#E3F1CC',
+      greenBlue: '#C4E4F6',
+      nude2: '#F1D49D',
+      yellow: '#D99D02',
+      green: '#35DF32',
     },
     fontFamily: {
       // lato: ['lato', 'sans-serif']

@@ -18,12 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${outfit.className} bg-white text-darkBlue max-w-min`}>
+      <body className={`${outfit.className} bg-white text-darkBlue min-w-[98vw]`}>
         <p className='text-center text-black1 text-sm py-1 bg-nude'> 
           Free Veterinary Checkup for the first 4 months! 
         </p>
         <NavBar />
-        {children}
+          {children}
         <Footer />
       </body>
     </html>

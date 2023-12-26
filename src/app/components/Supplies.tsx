@@ -11,7 +11,7 @@ const playfairDisplay = Playfair_Display({
 export default function Supplies() {
   return (
     <div className='p-7 mb-5'>
-      <h1 className={`my-5 text-3xl font-thin`}> Supplies & <span className={`${playfairDisplay.className}`}> Pets </span></h1>
+      <h1 className={`my-5 text-3xl font-thin`}> Supplies & <span className={`${playfairDisplay.className}`}> Treats </span></h1>
       <div className='flex gap-2'>
         <SuppliesCard />
         <SuppliesCard />

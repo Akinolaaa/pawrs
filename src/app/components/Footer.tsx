@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <div className='bg-fadedNude px-2'>
       <div className='py-5'>
-        <div className='grid grid-cols-7 gap-10'>
+        <div className='grid grid-cols-7 gap-9'>
           <div className='col-span-2 flex flex-col gap-8'>
             <p className='text-2xl'>Updates, News, and Deals. Right in your <span className={`${playfairDisplay.className}`}>inbox</span></p>
             <div className='flex justify-between bg-white text-xs rounded-full'>

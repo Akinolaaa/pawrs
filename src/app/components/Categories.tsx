@@ -2,6 +2,10 @@ import React from 'react'
 import CategoryCard from './CategoryCard'
 import { Playfair_Display } from 'next/font/google'
 import PurpleButton from './PurpleButton';
+import dogs from "../../../public/images/dogs.svg";
+import cats from "../../../public/images/cats.svg";
+import birds from "../../../public/images/birds.svg";
+import rabbits from "../../../public/images/rabbits.svg";
 
 const playfairDisplay = Playfair_Display({ 
   subsets: ['latin'],
@@ -15,14 +19,14 @@ export default function Categories() {
       <h1 className={`my-5 text-3xl font-thin`}> Shop by <span className={`${playfairDisplay.className}`}> Category </span></h1>
       <div className='grid grid-cols-8 gap-3 h-[655px]'>
         <div className='col-span-3'>
-          <CategoryCard />
+          <CategoryCard bgColor='bg-nude2' image={dogs} title='Dogs & Puppies'/>
         </div>
         <div className='col-span-3 grid grid-rows-2 gap-3'>
-          <CategoryCard />
-          <CategoryCard />
+          <CategoryCard bgColor='bg-lightPurple' image={cats} title='Cats & Kittens'/>
+          <CategoryCard bgColor='bg-blueGray' image={birds} title='Birds'/>
         </div>
         <div className='col-span-2'>
-          <CategoryCard />
+          <CategoryCard bgColor='bg-greenBlue' image={rabbits} title='Rabbits & Hamsters'/>
         </div>
       </div>
       <div className='flex justify-center py-4'>
